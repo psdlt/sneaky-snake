@@ -1,0 +1,53 @@
+#app {
+    display: flex;
+}
+
+#snake-pit {
+    background-color: darkgray;
+    padding: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+#controls {
+    float: left;
+    width: 260px;
+    background-color: darkgray;
+    padding: 20px;
+    color: white;
+}
+
+
+#controls button {
+    width: 100%;
+    display: block;
+    height: 40px;
+    background: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+    float: left;
+    margin: 0 3px 3px 0;
+}
+
+.last {
+    margin-right: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.tail {
+    background-color: white;
+}
+
+.apple {
+    background-color: red;
+}
