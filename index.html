@@ -7,11 +7,21 @@
     <div id="app">
         <div id="snake-pit"></div>
         <div id="controls">
-            <h2>Score: <span id="score">---</span></h2>
-            <h3>Speed: <span id="speed">---</span></h3>
+            <div id="info-block">
+                <div>
+                    <p>Score</p>
+                    <h2 class="score" id="score">---</h2>
+                </div>
+                <div>
+                    <p>Speed</p>
+                    <h2 class="score" id="speed">---</h2>
+                </div>
+            </div>
+
             <button type="button" id="start-stop">Start (space)</button>
 
             <ul id="help">
+                <li>"w"/"a"/"s"/"d" to arrow keys to move around</li>
                 <li>Press "f" to go faster</li>
                 <li>Press "o" or "p" to decrease/increase board size</li>
             </ul>

@@ -3,7 +3,8 @@ Classic Snake game in pure ES6 JavaScript. No 3rd party library dependency.
 
 ## Browser support
 
-All modern desktop browsers (read -- no IE support) - see https://caniuse.com/#search=es6.
+All modern desktop browsers (read -- no IE support) -
+see https://caniuse.com/#search=es6 and https://caniuse.com/#feat=flexbox.
 Mobile browsers could be supported if only anyone could be bothered to implement game controls for them.
 
 ## Acknowledgement
