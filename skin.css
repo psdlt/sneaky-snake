@@ -34,6 +34,10 @@
 }
 
 
+#controls h1 {
+    text-align: center;
+}
+
 #controls button {
     width: 100%;
     display: block;
@@ -55,6 +59,11 @@
 }
 
 #info-block > div > p {
+    text-align: center;
+}
+
+#bottom-info {
+    margin-top: 50px;
     text-align: center;
 }
 
